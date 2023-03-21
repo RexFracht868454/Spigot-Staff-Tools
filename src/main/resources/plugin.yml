@@ -32,9 +32,3 @@ permissions:
     default: op
   staff.bringto.cmd:
     default: op
-  staff.gm.creative.cmd:
-    default: op
-  staff.gm.spectator.cmd:
-    default: op
-  staff.gm.survival.cmd:
-    default: op
