@@ -1,0 +1,40 @@
+name: Staffmode
+version: '1.0-SNAPSHOT'
+main: rexfracht868454.staffmode.Staffmode
+api-version: 1.19
+authors: [ RexFracht868454 ]
+description: Quick Actions for Staffs
+
+commands:
+  vanish:
+    description: vanish for a player
+
+  god:
+    description: gotmode for a player
+
+  freeze:
+    description: freeze a player
+
+  goto:
+    description: go to a player
+
+  bringto:
+    description: bring a player to you
+
+permissions:
+  staff.vanish.cmd:
+    default: op
+  staff.god.cmd:
+    default: op
+  staff.freeze.cmd:
+    default: op
+  staff.goto.cmd:
+    default: op
+  staff.bringto.cmd:
+    default: op
+  staff.gm.creative.cmd:
+    default: op
+  staff.gm.spectator.cmd:
+    default: op
+  staff.gm.survival.cmd:
+    default: op
